@@ -25,54 +25,35 @@ p {
 header {
     height: 20vh;
     background: #8D8484;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+section {
+    width: 73vw;
+    height: 20vh;
 }
 .content-1 {
-    width: 73vw;
-    height: 20vh;
     background: #776969;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .content-2 {
-    width: 73vw;
-    height: 20vh;
     background: #643030;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .content-3 {
-    width: 73vw;
-    height: 20vh;
     background: #441818;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.spam-1 {
+aside {
     width: 27vw;
     height: 30vh;
+}
+.spam-1 {
     background: #937575;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .spam-2 {
-    width: 27vw;
-    height: 30vh;
     background: #644C4C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 footer {
     height: 20vh;
     background: #BDBDBD;
+}
+header, section, aside, footer {
     display: flex;
     justify-content: center;
     align-items: center;
