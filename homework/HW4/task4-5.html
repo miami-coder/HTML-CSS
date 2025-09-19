@@ -9,50 +9,54 @@
         * {
             margin: 0;
         }
-        header {
-            height: 4vh;
+        nav {
+            height: 5vh;
             background: #D9D9D9;
         }
-        div {
+        main {
+            height: 75vh;
             display: flex;
         }
-        div section {
+        main section {
             width: 60vw;
-            height: 74vh;
+            height: 100%;
             background: #A4A4A4;
         }
         .a-top {
-            width: 40vw;
             height: 40vh;
+            width: 40vw;
             background: #7F7A7A;
         }
         .a-bot {
+            height: 35vh;
             width: 40vw;
-            height: 34vh;
             background: #615050;
         }
-        section {
-            height: 10vh;
+        footer {
+            height: 20vh;
+        }
+        .f-top {
+            height: 9vh;
             background: #D9D9D9;
         }
-        footer {
-            height: 12vh;
+        .f-bot {
+            height: 11vh;
             background: #AFA9A9;
         }
     </style>
 </head>
 <body>
-    <header></header>
+    <nav></nav>
     <main>
-      <div>
         <section></section>
-        <aside>
-            <div class="a-top"></div>
-            <div class="a-bot"></div>
-        </aside>
-      </div>
-      <section></section>
+        <div>
+            <aside class="a-top"></aside>
+            <aside class="a-bot"></aside>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="f-top"></div>
+        <div class="f-bot"></div>
+    </footer>
 </body>
 </html>
