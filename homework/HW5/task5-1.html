@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 30px solid yellow;
+            border-right: 30px solid lawngreen;
+            border-bottom: 30px solid red;
+            border-left: 30px solid coral;
+            animation: preloader 4s linear infinite alternate;
+        }
+        @keyframes preloader {
+            from {
+                transform: rotate(360deg);
+            }
+            to {
+                transform: rotate(-360deg) scale(1.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+</body>
+</html>
