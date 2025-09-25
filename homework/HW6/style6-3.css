@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inst-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    width: 400px;
+    height: 450px;
+}
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    margin: 20px auto;
+}
+.logo-inst {
+    width: 200px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"] {
+    width: 320px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    width: 330px;
+    height: 35px;
+    margin-top: 15px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.or {
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.or p {
+    color: gray;
+    letter-spacing: 1px;
+    margin: auto 130px auto 145px;
+}
+.or::before {
+    content: "";
+    border: 1px solid gray;
+}
+.or::after {
+    content: "";
+    flex: 1;
+    border: 1px solid gray;
+}
+
+.facebook-logo {
+    margin-top: 10px;
+}
+
+.facebook-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    margin-top: 25px;
+}
+.facebook-logo a:nth-child(1) {
+    font-weight: bold;
+}
+
+.form-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.form-registration p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: deepskyblue;
+}
